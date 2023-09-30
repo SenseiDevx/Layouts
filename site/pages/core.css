@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Nunito Sans", serif;
+    color: #262626;
+}
+
+body {
+    height: 1920px;
+    background-color: #EDEFF2;
+    position: relative;
+}
+
+.container {
+    width: calc(1080px - (88px * 2));
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,129 @@
+.menu {
+    background: no-repeat url("../../images/images-blacklist.png");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.menu__inner {
+    position: relative;
+}
+
+.menu__inner a{
+    position: absolute;
+    width: 120px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    top: 316px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.content {
+    padding-top: 60px;
+}
+
+.content__inner {
+    position: relative;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding-bottom: 24px;
+    padding-top: 20px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+
+.handicapped {
+    position: absolute;
+    right: 89px;
+    bottom: 88px;
+    width: 120px;
+    height: 70px;
+    background-color: #FF9900;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 34px 0;
+    border-bottom: 1px solid rgba(38, 38, 38, 0.5);
+}
+
+.active {
+    box-shadow: 0 77px 31px rgba(0, 0, 0, 0.01), 0 43px 26px rgba(0, 0, 0, 0.05), 0 19px 19px rgba(0, 0, 0, 0.09), 0 5px 11px rgba(0, 0, 0, 0.1), 0 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    width: 211px;
+    height: 175px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #262626;
+}
+
+.qrcode {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+span {
+    font-weight: 700;
+}
+
+.codes {
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+}
+.code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.code p {
+    font-weight: 700;
+    padding-bottom: 20px;
+}

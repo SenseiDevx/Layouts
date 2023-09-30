@@ -1,0 +1,9 @@
+p {
+    padding: 20px 0;
+	text-align: justify;
+}
+
+.qrcode {
+    display: flex;
+    justify-content: center;
+}

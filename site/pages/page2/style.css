@@ -1,0 +1,75 @@
+.menu {
+    background: no-repeat url("../../images/images-blacklist.png");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.menu__inner {
+    position: relative;
+}
+
+.menu__inner a{
+    position: absolute;
+    width: 120px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    top: 316px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.content {
+    padding-top: 60px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.handicapped {
+    position: absolute;
+    right: 89px;
+    bottom: 88px;
+    width: 120px;
+    height: 70px;
+    background-color: #FF9900;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    padding: 20px 0;
+}
+
+span {
+    font-weight: 700;
+}
+
+.qrcode {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
